@@ -1,0 +1,14 @@
+{{ for user in users }}
+
+<div class="user_container">
+	<div>
+		<img class="user_avatar" src="{{ user.avatar }}"/>
+	</div>
+	<div>
+		<h3 class="user_name">
+			{{ user.name }}
+		</h3>
+	</div>
+</div>
+
+{{/ for }}
